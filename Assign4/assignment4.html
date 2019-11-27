@@ -1,0 +1,184 @@
+<!-- Student Name: Christina Baziw -->
+<!-- Student Number: 301109282 -->
+<!-- Assignment 4 - COMP213 -->
+
+<!DOCTYPE htmml>
+<html lang="en">
+<head>
+	<title>Instructor Evaluation - Assignment 4</title>
+	<meta charset="utf-8">
+	<!-- Link Stylesheet -->
+	<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+	<header class="container">
+		<a href="https://www.centennialcollege.ca/">
+			<img src="logo.png" alt="Centennial College logo" height="120" width="220" align="left">
+		</a>
+		<br>
+		<h1>Continuing Education Course/Instructor Evaluation</h1>
+		<br>
+	</header>
+	
+	<p>Please read each statement carefully and consider each one individually.</p>
+	
+	<form>
+		<!-- Course Name -->
+		<label for="coursename"><b>Course Name/Code:</b></label>
+		<input type="text" name="coursename" maxlength="8" size="10"><br>
+		<!-- Semester -->
+		<label for="semester"><b>Semeseter:</b></label>
+		<select name="semester">
+			<option value="fall">Fall</option>
+			<option value="winter">Winter</option>
+			<option value="springsummer">Spring/Summer</option>
+		</select><br>
+		<!-- Year -->
+		<label for="year"><b>Year:</b></label>
+		<input type="number" name="year" min="2012" max="2030" maxlength="4"><br>
+		<!-- Instructor -->
+		<label for="instructor"><b>Instructor:</b></label>
+		<input type="text" name="instructor" maxlength="20" size="20"><br>
+		
+		<!-- Instructor Questions -->
+		<h3>Instructor</h3>
+		<p>How would you rate the instructor's:</p>
+		<ol>
+			<!-- Question 1 -->
+			<li><b>knowledge</b> of the subject?<br>
+				<ul>
+					<li class="options"><input type="radio" name="knowledge" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="knowledge" value="b">Good</li>
+					<li class="options"><input type="radio" name="knowledge" value="c">Fair</li>
+					<li class="options"><input type="radio" name="knowledge" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+			<!-- Question 2 -->
+			<li><b>helpfullness</b>?<br>
+				<ul>
+					<li class="options"><input type="radio" name="helpfullness" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="helpfullness" value="b">Good</li>
+					<li class="options"><input type="radio" name="helpfullness" value="c">Fair</li>
+					<li class="options"><input type="radio" name="helpfullness" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+			<!-- Question 3 -->
+			<li><b>courtesy and respect</b> for all students?<br>
+				<ul>
+					<li class="options"><input type="radio" name="candr" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="candr" value="b">Good</li>
+					<li class="options"><input type="radio" name="candr" value="c">Fair</li>
+					<li class="options"><input type="radio" name="candr" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+			<!-- Question 4 -->
+			<li><b>communication</b> skills?<br>
+				<ul>
+					<li class="options"><input type="radio" name="communication" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="communication" value="b">Good</li>
+					<li class="options"><input type="radio" name="communication" value="c">Fair</li>
+					<li class="options"><input type="radio" name="communication" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+			<!-- Question 5 -->
+			<li>overall <b>performance</b>?<br>
+				<ul>
+					<li class="options"><input type="radio" name="performance" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="performance" value="b">Good</li>
+					<li class="options"><input type="radio" name="performance" value="c">Fair</li>
+					<li class="options"><input type="radio" name="performance" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+		</ol>
+		
+		<h3>Course</h3>
+		<ol start="6">
+			<!-- Question 6 -->
+			<li>How would you rate the <b>course materials</b>?<br>
+				<ul>
+					<li class="options"><input type="radio" name="materials" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="materials" value="b">Good</li>
+					<li class="options"><input type="radio" name="materials" value="c">Fair</li>
+					<li class="options"><input type="radio" name="materials" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+			<!-- Question 7 -->
+			<li>How much did this course meet your <b>expectations</b>?<br>
+				<ul>
+					<li class="options"><input type="radio" name="expectations" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="expectations" value="b">Good</li>
+					<li class="options"><input type="radio" name="expectations" value="c">Fair</li>
+					<li class="options"><input type="radio" name="expectations" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+			<!-- Question 8 -->
+			<li>How would you rate this course (<b>overall</b>)?<br>
+				<ul>
+					<li class="options"><input type="radio" name="overall" value="a">Excellent</li>
+					<li class="options"><input type="radio" name="overall" value="b">Good</li>
+					<li class="options"><input type="radio" name="overall" value="c">Fair</li>
+					<li class="options"><input type="radio" name="overall" value="d">Not Satisfactory</li>
+				</ul>
+			</li>
+		</ol>
+			
+		<h3>General Information</h3>
+		<ol start="9">
+			<!-- Question 9 -->
+			<li>Was the <b>course outline</b> reviewed/explained at the beginning of your course?<br>
+				<ul>
+					<li class="options"><input type="radio" name="outline" value="a">Yes</li>
+					<li class="options"><input type="radio" name="outline" value="b">No</li>
+					<li class="options"><input type="radio" name="outline" value="c">Not Sure</li>
+				</ul>
+			</li>
+			<!-- Question 10 -->
+			<li>Would you <b>recommend</b> this course to a friend with the same interests?<br>
+				<ul>
+					<li class="options"><input type="radio" name="recommend" value="a">Yes</li>
+					<li class="options"><input type="radio" name="recommend" value="b">No</li>
+					<li class="options"><input type="radio" name="recommend" value="c">Not Sure</li>
+				</ul>
+			</li>
+		</ol>
+		
+		<!-- Short and Long Answer Questions -->
+		<h3>Any Other Comments</h3>
+		<ol start="11">
+			<!-- Question 11 -->
+			<li><label for="bestthing">What is the <b>best thing</b> about this course?</label>
+				<textarea id="bestthing" name="bestthing" placeholder="Write something.." maxlength="200" class="short"></textarea>
+			</li>
+			<!-- Question 12 -->
+			<li><label for="improve">How could we <b>improve</b> this course?</label>
+				<textarea id="improve" name="improve" placeholder="Write something.." maxlength="200" class="short"></textarea>
+			</li>
+			<!-- Question 13 -->
+			<li><label for="other">Other:</label><br>
+				<textarea id="other" name="other" placeholder="Write something.." maxlength="500" class="long"></textarea>
+			</li>
+		</ol>
+
+		<!-- Buttons -->
+		<input type="submit" class="button">
+		<input type="reset" class="button">
+	</form>
+	
+	<!-- Feedback Area -->
+	<div class="feedback">
+		<h5>Thank you! We pay attention to your feedback!
+			<br>Web: <a href="www.centennialcollege.ca/continuing_education">www.centennialcollege.ca/continuing_education</a>
+			<br>Email: <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a>
+		</h5>
+	</div>
+
+	<!-- Copyright Section -->
+	<hr>
+	<h6>&copy; Copyright Christina Baziw (301109282) - COMP213 - Fall 2019</h6>
+	<hr>
+	
+	<!-- Link to Home Page -->
+	<p><a href="../index.html">Home Page</a></p>
+	
+
+</body>
