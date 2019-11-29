@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Real Estate - Home Page</title>
+        <title>Contact Us - Real Estate</title>
         <meta charset="8">
+        <meta name="viewport" content="width=device-width", inital-scale=1>
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -17,35 +18,36 @@
         <form>
             <!-- First Name -->
             <label for="firstname"><b>First Name: </b></label>
-            <input type="text" name="firstname"><br>
+            <input type="text" name="firstname" placeholder="First Name"><br>
             <!-- Last Name -->
             <label for="lastname"><b>Last Name: </b></label>
-            <input type="text" name="lastname"><br>
+            <input type="text" name="lastname" placeholder="Last Name"><br>
             <!-- Phone Number -->
             <label for="telephone"><b>Phone Number: </b></label>
-            <input type="tel" name="telephone"><br>
+            <input type="tel" name="telephone" placeholder="123-456-7890"><br>
             <!-- Email -->
             <label for="email"><b>Email: </b></label>
-            <input type="email" name="email"><br>
+            <input type="email" name="email" placeholder="john@email.com"><br>
             <!-- Type of Property -->
             <label for="property"><b>Type of Property: </b></label>
             <select name="property"> 
                 <option value="house">House</option>
                 <option value="condo">Condo</option>
                 <option value="land">Land</option>
-            </select><br>
+            </select>
+            <!-- Price Range -->
+            <label for="price"><b>Maximum Price: </b></label>
+            $0<input type="range" name="price" list="price">$20M
+            <br>
             <!-- Number of Bedrooms -->
             <label for="bedrooms"><b>Minimum # of Bedrooms: </b></label>
-            <input type="number" name="bedrooms" min="0" max="10">
+            <input type="number" name="bedrooms" min="0" max="10" placeholder="0">
             <!-- Number of Bathrooms -->
             <label for="bathrooms"><b>Minimum # of Bathrooms: </b></label>
-            <input type="number" name="bathrooms" min="0" max="10"><br>
-            <!-- Price Range -->
-            <label for="price"><b>Price Range: </b></label>
-            <input type="range" name="price" min="0" max="10000000" value="1000000" step="50000"><br>
+            <input type="number" name="bathrooms" min="0" max="10" placeholder="1"><br>
             <!-- Additional Comments -->
             <label for="comments"><b>Comments: </b><br></label>
-            <textarea name="comments" placeholer="Write something..." maxlength="500" width=100%></textarea><br>
+            <textarea name="comments" placeholder="Write something..." maxlength="500" width=100%></textarea><br><br>
             <!-- Submit Button -->
             <input type="submit">
             <!-- Reset Button -->

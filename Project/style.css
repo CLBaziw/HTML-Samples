@@ -6,6 +6,10 @@ body {
 }
 
 /* Header */
+header {
+    background-color: white;
+    font-family: sans-serif;
+}
 
 /* Horizontal Navigation Bar */
 ul {
@@ -37,7 +41,6 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
-    display: inline-block;
     float: left;
 }
 
@@ -67,28 +70,43 @@ li.dropdown {
 }
 
 /* Contact Page Form */
-form {
-
-}
-
 label {
-    padding: 10px 10px 10px 0px;
-    display: inline-block:
+    padding: 6px 6px 6px 0px;
+    display: inline-block;
+    margin: 2px 6px;
 }
 
-input[type=text], input[type=tel], input[type=email], textarea, select, { 
+input[type=text], input[type=tel], input[type=email], textarea { 
     width: 100%;
     padding: 12px 20px;
     margin: 6px 6px;
     resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select, input[type=number]{
+    width: 100px;
+    padding: 8px 12px;
+    margin: 6px 6px;
+}
+
+textarea {
+    height: 200px;
 }
 
 input[type=submit], input[type=reset] {
-    width: 100[x;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     background-color: maroon;
+    color: white;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 8px;
 }
 
-input[type=submit]:hover {
-    
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: red;
 }
+
+
