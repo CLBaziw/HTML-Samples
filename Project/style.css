@@ -66,3 +66,29 @@ li.dropdown {
     display: block;
 }
 
+/* Contact Page Form */
+form {
+
+}
+
+label {
+    padding: 10px 10px 10px 0px;
+    display: inline-block:
+}
+
+input[type=text], input[type=tel], input[type=email], textarea, select, { 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 6px;
+    resize: vertical;
+}
+
+input[type=submit], input[type=reset] {
+    width: 100[x;
+    height: 80px;
+    background-color: maroon;
+}
+
+input[type=submit]:hover {
+    
+}

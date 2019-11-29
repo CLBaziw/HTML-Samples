@@ -11,6 +11,8 @@
 
         <!-- Add Navigation -->
 
+        <!-- Content -->
+        <p>Thank you for visiting our site. If you would like to inquire about available properties, please fill out the form below and a member of our team will get back to you as soon as we can.</p>
         <!-- Form -->
         <form>
             <!-- First Name -->
@@ -30,16 +32,24 @@
             <select name="property"> 
                 <option value="house">House</option>
                 <option value="condo">Condo</option>
-            </select>
+                <option value="land">Land</option>
+            </select><br>
             <!-- Number of Bedrooms -->
-
+            <label for="bedrooms"><b>Minimum # of Bedrooms: </b></label>
+            <input type="number" name="bedrooms" min="0" max="10">
             <!-- Number of Bathrooms -->
-
+            <label for="bathrooms"><b>Minimum # of Bathrooms: </b></label>
+            <input type="number" name="bathrooms" min="0" max="10"><br>
             <!-- Price Range -->
-            <label for=""
+            <label for="price"><b>Price Range: </b></label>
+            <input type="range" name="price" min="0" max="10000000" value="1000000" step="50000"><br>
             <!-- Additional Comments -->
-            <label for="comments"><b>Comments: </b></label>
+            <label for="comments"><b>Comments: </b><br></label>
             <textarea name="comments" placeholer="Write something..." maxlength="500" width=100%></textarea><br>
+            <!-- Submit Button -->
+            <input type="submit">
+            <!-- Reset Button -->
+            <input type="reset">
         </form>
     </body>
 </html>
