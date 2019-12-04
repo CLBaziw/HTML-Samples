@@ -4,13 +4,45 @@
         <title>Contact Us - Real Estate</title>
         <meta charset="8">
         <meta name="viewport" content="width=device-width", inital-scale=1>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
     </head>
 
     <body>
-        <!-- Add Header-->
+        <!-- Header -->
+        <header>
+            <img src="../logo.jpg" alt="Tabatha Broker logo" class="logo"></div>
+            <div class="headerinfo">
+                Tabatha Broker<br>
+                123-456-7890<br>
+                <a href="mailto:tabathabroker@realestate.com">tabathabroker@realestate.com</a><br>
+                Toronto, ON
+            </div>
+        </header>
 
-        <!-- Add Navigation -->
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="nav">
+                <!-- Home Page-->
+                <li class="navLeft"><a class="nav" href="../HomePage/index.html">Home</a></li>
+                <!-- Property Listings -->
+                <li class="dropdown">
+                    <a class="dropbtn">Popular Listings</a>
+                        <div class="dropdown-content">
+                            <a href="../Listing1/listing1.html">Listing 1</a>
+                            <a href="../Listing2/listing2.html">Listing 2</a>
+                            <a href="../Listing3/listing3.html">Listing 3</a>
+                        </div>
+                </li>
+                <!-- All Listings -->
+                <li class="navLeft"><a class="nav" href="../Listings/listings.html">All Listings</a></li>
+                <!-- Contact Us -->
+                <li class="navLeft"><a class="nav" href="../Contact/contact.html">Contact Us</a></li>
+                <!-- Site Map & Credits Page -->
+                <li class="navLeft"><a class="nav" href="../Sitemap/sitemap.html">Site Map</a></li>
+                <!-- Student Home Page -->
+                <li class="navRight"><a class="nav" href="../../index.html">Student Home</a></li>
+            </ul>
+        </nav>
 
         <!-- Content -->
         <p>Thank you for visiting our site. If you would like to inquire about available properties, please fill out the form below and a member of our team will get back to you as soon as we can.</p>
@@ -33,6 +65,7 @@
             <select name="property"> 
                 <option value="house">House</option>
                 <option value="condo">Condo</option>
+                <option value="cottage">Cottage</option>
                 <option value="land">Land</option>
             </select>
             <!-- Price Range -->
@@ -51,7 +84,17 @@
             <!-- Submit Button -->
             <input type="submit">
             <!-- Reset Button -->
-            <input type="reset">
-        </form>
+            <input type="reset">            
+        </form><br>
+
+        <!-- Footer -->
+        <footer>
+            <hr>
+            <h6>
+                Christina Baziw (301109282) - COMP213 - Fall 2019
+                Sample website created for final project.
+            </h6>
+            <hr>
+        </footer>
     </body>
 </html>
